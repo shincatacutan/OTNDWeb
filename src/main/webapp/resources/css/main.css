@@ -1,0 +1,312 @@
+body {
+	font-family: "Segoe UI", "Segoe", Tahoma, Calibri, Helvetica, Arial,
+		sans-serif;
+	margin: 0;
+	font-size: 12px;
+	text-align: center;
+	background: #E8E8E7;
+}
+
+#body_container {
+	margin: 0 auto;
+	width: 90%;
+	text-align: left;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+
+#body_dv {
+	min-height: 460px;
+}
+
+#header_dv img {
+	margin: 1.5em;
+	float: left;
+}
+
+div#header_user {
+	padding: 1em;
+	text-align: left;
+	font-size: 1em;
+	margin-left: 70%;
+}
+
+div#header_user span {
+	color: #e87722;
+}
+
+.ui-tabs-nav {
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
+
+h1.title {
+	color: #FFF;
+	margin: 0;
+	font-size: 2em;
+	padding: 0 0.5em;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 1.3em;
+	margin: 0;
+	padding: 0 0 0.5em;
+	font-weight: 500;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	float: left;
+	padding: .5em 1em;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+div.info {
+	background: #e87722;
+	padding: 0.5em 1.5em;
+	clear: both;
+}
+
+div#tableSpace, div#inqTableSpace {
+	padding: 1em;
+}
+
+div.footer {
+	background: #B6B8B9;
+	color: #484848;
+	border-top: 2px solid rgb(110, 113, 116);
+	font-size: 1em;
+	padding: 1em;
+	text-align: right;
+}
+
+hr.seperator {
+	background: #E06D13;
+	width: 95%
+}
+
+span.emp-info-span {
+	display: block;
+	float: left;
+}
+
+span.emp-info-space {
+	display: block;
+	float: left;
+	margin: 0 0.8em;
+}
+
+label.detailsLbl {
+	display: block;
+	float: left;
+	width: 7em;
+}
+
+span.detailSpan {
+	display: block;
+	/* width: 28%; */
+	padding: 0.5em;
+	/* float: left; */
+	/* min-height: 2em; */
+}
+
+/* span.detailSpan.codeSpan {
+  width: 27em;
+} */
+span.addSpan {
+	display: block;
+	margin: 1em;
+}
+
+label.addLbl {
+	display: block;
+	width: 7em;
+	float: left;
+}
+
+span.detailRemarks {
+	width: 90%;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+div#ui-datepicker-div, div.ui-spinner {
+	font-size: 1em;
+}
+
+input.ui-button {
+	padding: 0.2em 1em !important;
+	margin: 0px 0.3em 0.4em !important;
+}
+
+select {
+	font-family: Tahoma;
+	padding: 2px;
+}
+
+div#tabs {
+	margin: 1em;
+}
+div#tabs-2, div#tabs-3, div#tabs-6 {
+	min-height: 30em;
+}
+
+
+div.two_column {
+	width: 48%;
+	float: left;
+	margin: 0 1%;
+}
+
+.ui-tabs {
+	border: 1px solid #8e846b;
+	color: #383838;
+	background: none !important;
+}
+
+.ui-dialog {
+	text-align: left;
+}
+
+div#dialog-form {
+	min-height: 250px !important;
+}
+
+.ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 1em 1.4em;
+	background: none;
+	border: solid 1px rgb(82, 76, 64) !important;
+	margin: 0 0.1em !important;
+}
+
+table.dataTable.no-footer {
+	border-bottom: 1px solid #111111;
+	font-size: 1em;
+}
+
+table.dataTable th.dt-left, table.dataTable td.dt-left {
+	text-align: left;
+	padding-left: 0.5em;
+}
+
+td.dt-longer {
+	text-align: left;
+	padding-left: 0.5em;
+	width: 30%;
+}
+
+th.dt-longer.sorting, th.dt-longer.sorting_asc, th.dt-longer.sorting_desc
+	{
+	padding-left: 10px;
+	text-align: left;
+}
+
+div#header_user label {
+	display: inline-block;
+	width: 8em;
+	text-align: right;
+	margin: 0 0.5em;
+}
+
+div.tab_div {
+	clear: both;
+}
+
+.ui-widget-content {
+	background: #fff !important;
+}
+
+#adminDiv {
+	margin: 1em;
+	padding: 0.5em;
+	border: 1px solid #8e846b;
+	border-radius: 4px;
+}
+
+.ui-widget-content .ui-state-error {
+	border: 1px solid #ffb73d;
+	background: #d34d17
+		url(images/ui-bg_diagonals-medium_20_d34d17_40x40.png) 50% 50% repeat;
+	color: red !important;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+	font-weight: 500 !important;
+}
+
+div.load_pay {
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+select#income_code {
+	width: 15em;
+}
+
+label.error {
+	color: red;
+	margin: 1em;
+	vertical-align: top;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 255, .8) url('images/ajax-loader.gif') 50%
+		50% no-repeat;
+}
+
+body.loading {
+	overflow: hidden;
+}
+
+.error_dv {
+	margin: 2em;
+	font-size: 2em;
+}
+
+.error_dv span {
+	font-weight: 600;
+	color: #e87722;
+}
+
+div#body_dv div.loading_img {
+	padding-top: 20%;
+	text-align: center;
+}
+
+span#availableCharSpan {
+	display: inline-block;
+	width: 40em;
+	text-align: right;
+	font-style: italic;
+	font-size: smaller;
+}
+
+textarea#txtRemarks {
+	width: 23em;
+	height: 5em;
+}
+
+[data-notify="container"] {
+	background-color: #fff;
+	border-width: 0px;
+	border-left: 15px solid #e87722;
+	font-size: 1.5em;
+	color:rgba(99, 102, 106, 1); 
+	border-radius : 0px;
+	box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.3);
+	border-radius: 0px;
+}
+
